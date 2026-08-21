@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>输入mj召唤蜘蛛侠</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: system-ui;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        #inputBox {
+            padding: 12px 16px;
+            font-size: 18px;
+            width: 300px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+        .tip {
+            margin-bottom:12px;
+            font-size:14px;
+            opacity:0.7;
+        }
+        #spiderWrap {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0,0,0,0.85);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index:999;
+        }
+        #spiderImg {
+            max-width: 80%;
+            max-height: 80vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="tip">输入 mj 按回车召唤蜘蛛侠</div>
+    <input id="inputBox" placeholder="在这里输入..." />
+
+    <div id="spiderWrap">
+        <img id="spiderImg" src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/80
